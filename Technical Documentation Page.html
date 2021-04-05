@@ -1,0 +1,203 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<nav id="navbar">
+  <header><h1>C Language</h1></header>
+  <ul id="nav-list">
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li>
+      <a class="nav-link" href="#What_you_should_already_know"
+        >What you should already know</a
+      >
+    </li>
+    <li>
+      <a class="nav-link" href="#C_Language">C Language</a>
+    </li>
+    <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+    <li><a class="nav-link" href="#Variables">Variables</a></li>
+    <li>
+      <a class="nav-link" href="#Declaring_variables">Declaring variables</a>
+    </li>
+    <li><a class="nav-link" href="#Constants">Constants</a></li>
+    <li><a class="nav-link" href="#Data_types">Data types</a></li>
+    
+    <li><a class="nav-link" href="#Reference">Reference</a></li>
+  </ul>
+</nav>
+
+<main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header>Introduction</header>
+    <article>
+      <p>
+        C programming is a general-purpose, procedural, imperative computer programming language developed in 1972 by Dennis M. Ritchie at the Bell Telephone Laboratories to develop the UNIX operating system.
+      </p>
+
+      <p>
+        C is the most widely used computer language. It keeps fluctuating at number one scale of popularity along with Java programming language, which is also equally popular and most widely used among modern software programmers.
+        C contains a standard library of objects, such as Array, Date,
+        and Math, and a core set of language elements such as operators, control
+        structures, and statements. 
+        C programming language is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Software Development Domain. I will list down some of the key advantages of learning C Programming:
+      </p>
+      <ul>
+        <li>
+          Easy to learn
+        </li>
+        <li>
+          Structured language
+        </li>
+        <li>
+          It produces efficient programs
+        </li>
+        <li>
+          It can handle low-level activities
+        </li>
+        <li>
+          It can be compiled on a variety of computer platforms
+        </li>
+      </ul>
+    </article>
+  </section>
+  
+  <section class="main-section" id="What_you_should_already_know">
+    <header>What you should already know</header>
+    <article>
+      <p>Absolutely nothing! Start afresh as everything is given in the simplest language along with easy to grasp concepts</p>
+      </article>
+  </section>
+      
+   <section class="main-section" id="C_Language">
+    <header>C Language</header>
+    <article>
+      <p>
+        Here are some facts about C language you may not have known
+      </p>
+      <ul>
+        <li>
+          C was invented to write an operating system called UNIX.
+        </li>
+        <li>
+          C is a successor of B language which was introduced around the early 1970s.
+        </li>
+        <li>
+          Today C is the most widely used and popular System Programming Language.
+        </li>
+        <li>
+          The language was formalized in 1988 by the American National Standard Institute (ANSI).
+        </li>
+        <li>
+          The UNIX OS was totally written in C.
+        </li>
+      </ul>
+      </article>
+  </section>
+  
+  <section class="main-section" id="Hello_world">
+    <header>Hello world</header>
+    <article>
+      To get started with writing C, open the Scratchpad and write your
+      first "Hello world" C code:
+      <code
+        >#include <stdio.h>
+        int main() { 
+        printf("Hello, World! \n");
+        return 0;
+        }
+      </code>
+
+      Select the code in the pad and hit Ctrl+R to watch it unfold in your
+      browser!
+    </article>
+  </section>
+    
+     <section class="main-section" id="Variables">
+    <header>Variables</header>
+    <p>
+      You use variables as symbolic names for values in your application. The
+      names of variables, called identifiers, conform to certain rules.
+    </p>
+       <p>
+      Your variables can be anything except keywords (built in words which are used for specific other purposes in the program). The computer will take the first 32 bits of your variable iinto consideration while searching for the variables in your program.
+    </p>
+        </section>
+  <section class="main-section" id="Declaring_variables">
+    <header>Declaring variables</header>
+    <article>
+      You can declare a variable in these ways:
+      <p>
+        With the data type first, then the variable name<code> int x;</code> This syntax
+        can be used to declare both local and global variables.
+      </p>
+      <p>
+        By simply assigning it a value along with the data type. For example, <code>int x = 21.</code> 
+        <p>or</p>
+      <code>String x = "mistake".</code>
+      </p>
+    </article>
+  </section>
+    
+    <section class="main-section" id="Constants">
+    <header>Constants</header>
+    <article>
+      <p>
+        Constant cannot change thheir value, although in C there is a specific way to declare variables, we will look into that in higher levels.
+      </p>
+      
+      <p>
+        Here we can just assign a value to a variable and take it as a constant value
+      </p>
+
+      <code>float PI = 3.14;</code>
+      <p>or</p>
+      <code>double RadOfEarth = 6378;</code>
+    </article>
+  </section>
+    
+    <section class="main-section" id="Data_types">
+    <header>Data types</header>
+    <article>
+      <p>The latest standard defines seven data types:</p>
+      <ul>
+        <li>
+          <p>Six data types that are primitives:</p>
+          <ul>
+            <li>Boolean. true and false.</li>
+            <li>
+              null. A special keyword denoting a null value. Because JavaScript
+              is case-sensitive, null is not the same as Null, NULL, or any
+              other variant.
+            </li>
+            <li>undefined. A top-level property whose value is undefined.</li>
+            <li>Number. 42 or 3.14159.</li>
+            <li>String. "Howdy"</li>
+           
+          </ul>
+        </li>
+
+        <li>and Object</li>
+      </ul>
+      Although these data types are a relatively small amount, they enable you
+      to perform useful functions with your applications. Objects and functions
+      are the other fundamental elements in the language. You can think of
+      objects as named containers for values, and functions as procedures that
+      your application can perform.
+    </article>
+  </section>
+    
+    <section class="main-section" id="Reference">
+    <header>Reference</header>
+    <article>
+      <ul>
+        <li>
+          All the documentation in this page is taken from
+          <a
+            href="https://www.tutorialspoint.com/cprogramming/index.htm#:~:text=C%20programming%20is%20a%20general,most%20widely%20used%20computer%20language."
+            target="_blank"
+            >TutorialsPoint</a
+          >
+        </li>
+      </ul>
+    </article>
+  </section>
+</main>
+       
